@@ -5,7 +5,7 @@ REMOTE_DIR="/var/www/stychova.cz"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SSH="ssh sbl"
 
-echo "Uploading datat to SSH…"
+echo "Uploading data to SSH…"
 rsync -rcP --delete --exclude=".git" --exclude="/log/" --exclude="/temp/" "${DIR}/www/" "sbl:$REMOTE_DIR/"
 echo "Replace file permissions…"
 $SSH sudo fixwww.sh $REMOTE_DIR
