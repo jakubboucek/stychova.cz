@@ -2,7 +2,7 @@
 
 REMOTE_DIR="/var/www/stychova.cz/www"
 LOCAL_DIR="/www"
-SERVER_NAME="mlh"
+SERVER_NAME="rlp"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SSH="ssh ${SERVER_NAME}"

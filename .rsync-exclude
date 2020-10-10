@@ -1,4 +1,4 @@
 .gitignore
 /log/*
 /temp/*
-#/app/config/config.local.neon
+/app/config/config.local.neon
