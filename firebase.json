@@ -1,10 +1,22 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "hosting": [
+        {
+            "target": "stychova-cz",
+            "public": "stychova.cz/public",
+            "ignore": [
+                "firebase.json",
+                "**/.*",
+                "**/node_modules/**"
+            ]
+        },
+        {
+            "target": "lucy-energy-cz",
+            "public": "lucy-energy.cz/public",
+            "ignore": [
+                "firebase.json",
+                "**/.*",
+                "**/node_modules/**"
+            ]
+        }
     ]
-  }
 }
