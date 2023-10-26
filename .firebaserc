@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "stychova-cz"
-  }
+  },
+  "targets": {
+    "stychova-cz": {
+      "hosting": {
+        "stychova-cz": [
+          "stychova-cz"
+        ],
+        "lucy-energy-cz": [
+          "lucy-energy-cz"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
